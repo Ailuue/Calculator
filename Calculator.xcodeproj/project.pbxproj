@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA6B061D1ECBB96700F91DF3 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6B061C1ECBB96700F91DF3 /* CalculatorBrain.swift */; };
 		FAA5512D1ECB244D0067B742 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5512C1ECB244D0067B742 /* AppDelegate.swift */; };
 		FAA5512F1ECB244D0067B742 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5512E1ECB244D0067B742 /* ViewController.swift */; };
 		FAA551321ECB244D0067B742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA551301ECB244D0067B742 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA6B061C1ECBB96700F91DF3 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		FAA551291ECB244D0067B742 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA5512C1ECB244D0067B742 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAA5512E1ECB244D0067B742 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		FAA5512B1ECB244D0067B742 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				FA6B061C1ECBB96700F91DF3 /* CalculatorBrain.swift */,
 				FAA5512C1ECB244D0067B742 /* AppDelegate.swift */,
 				FAA5512E1ECB244D0067B742 /* ViewController.swift */,
 				FAA551301ECB244D0067B742 /* Main.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA6B061D1ECBB96700F91DF3 /* CalculatorBrain.swift in Sources */,
 				FAA5512F1ECB244D0067B742 /* ViewController.swift in Sources */,
 				FAA5512D1ECB244D0067B742 /* AppDelegate.swift in Sources */,
 			);
@@ -516,6 +520,7 @@
 				FAA551531ECB244E0067B742 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAA551541ECB244E0067B742 /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				FAA551561ECB244E0067B742 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAA551571ECB244E0067B742 /* Build configuration list for PBXNativeTarget "CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				FAA551591ECB244E0067B742 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
